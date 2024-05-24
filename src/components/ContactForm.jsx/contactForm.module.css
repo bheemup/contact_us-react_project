@@ -1,0 +1,84 @@
+.container {
+  margin-top: 20px;
+}
+.top_btn {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+  margin: 0 auto;
+}
+.form_controller {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_controller input {
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  padding: 0 8px;
+  color: rgb(29, 5, 68);
+  font-size: 16px;
+}
+.form_controller label {
+  position: absolute;
+  top: -12px;
+  padding: 2px 5px;
+  background-color: white;
+  left: 10px;
+}
+.form_controller textarea {
+  padding: 10px 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(29, 5, 68);
+}
+
+.submit {
+  display: flex;
+  justify-content: end;
+  margin-top: -20px;
+}
+.hero_img {
+  width: 50%;
+  height: 420px;
+  overflow: hidden;
+}
+.hero_img img {
+  object-fit: cover;
+  height: 420px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  border: 1px solid grey;
+  overflow: hidden;
+  max-width: 150px;
+  padding: 0 2px;
+}
+.table td:nth-of-type(2n+1){
+  color: blue;
+}
+.table td:nth-of-type(2n+2){
+  color: rgb(223, 9, 205);
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  .container{
+    flex-direction: column-reverse;
+  }
+  .hero_img{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+}

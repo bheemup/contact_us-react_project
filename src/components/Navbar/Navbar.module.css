@@ -1,0 +1,25 @@
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.navs {
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+  color: rgb(4, 82, 184);
+  opacity: 0.9;
+}
+.navbar {
+  justify-content: space-between;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navs li:hover {
+  color: blue;
+  opacity: 1;
+
+  cursor: pointer;
+}

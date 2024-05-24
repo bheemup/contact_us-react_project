@@ -1,0 +1,23 @@
+.contact{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(33, 168, 221);
+}
+.main{
+    margin-top: 20px;
+    height: calc(100vh-80px);
+}
+.p{
+    margin-top: 10px;
+    max-width: 850px;
+    color: rgb(63, 100, 69);
+}
+
+@media (min-width:320px) and (max-width:480px) {
+   .contact{
+    font-size: 30px;
+   }
+   
+  }
+  
